@@ -1,0 +1,23 @@
+.logo {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    @include font(700, 26px, 1.19, 0.03em);
+}
+
+.header__logo {
+    margin-right: 93px;
+    color: map-get($colors, 'title');
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+    color: map-get($colors, 'white');
+}
+
+.header__logo--hover-color {
+    color: map-get($colors, 'hover');
+}
+
+.footer__logo--hover-color {
+    color: map-get($colors, 'hover');
+}

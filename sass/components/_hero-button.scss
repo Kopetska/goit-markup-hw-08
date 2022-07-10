@@ -1,0 +1,20 @@
+.hero__button {
+    min-width: 200px;
+    padding: 10px 32px;
+    margin: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-style: none;
+    color: map-get($colors, 'white');
+    background-color: map-get($colors, 'hover');
+    cursor: pointer;
+    @include font(700, 16px, 1.88, 0.06em);
+    text-align: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: map-get($colors, 'btn-background');
+    }
+}
+

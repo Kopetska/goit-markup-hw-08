@@ -1,0 +1,32 @@
+body {
+    color: map-get($colors, 'text');
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    border-style: none;
+}

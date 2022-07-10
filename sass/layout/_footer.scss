@@ -1,0 +1,12 @@
+.footer__container {
+    display: flex;
+
+}
+
+.footer {
+    padding: {
+        top: 60px;
+        bottom: 60px;
+    }
+    background-color: map-get($colors, 'footer');
+}

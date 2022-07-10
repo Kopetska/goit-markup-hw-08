@@ -1,0 +1,12 @@
+.header {
+    background-color: map-get($colors, 'white');
+}
+
+.header__portfolio {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header--center {
+    display: flex;
+    align-items: center;
+}

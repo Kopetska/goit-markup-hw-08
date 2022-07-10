@@ -1,0 +1,13 @@
+.join {
+    margin: {
+        left: 70px;
+        right: 93px;
+    }
+}
+
+.join__title {
+    @include font(700, 14px, 1.14, 0.03em);
+    text-transform: uppercase;
+    color: map-get($colors, 'white');
+    margin-bottom: 20px;
+}

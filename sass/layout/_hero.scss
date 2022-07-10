@@ -1,0 +1,33 @@
+.hero {
+    background: {
+        color: map-get($colors, 'hero-bgr');
+        image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url('../images/img-back.jpg');
+        size: cover;
+        position: center;
+        repeat: no-repeat;
+    }
+    height: 600px;
+    max-width: 1600px;
+    margin: {
+        left: auto;
+        right: auto;
+    }
+    
+}
+.hero {
+    padding: {
+        top: 200px;
+        bottom: 200px;
+    }
+    background-color: map-get($colors, 'footer');
+    text-align: center;
+}
+
+.hero__title {
+    margin-bottom: 30px;
+    color: map-get($colors, 'white');
+    @include font(900, 44px, 1.36, 0.06em);
+    text-align: center;
+    text-transform: uppercase;
+}
